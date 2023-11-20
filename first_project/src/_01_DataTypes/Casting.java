@@ -1,4 +1,4 @@
-package first_project;
+package _01_DataTypes;
 
 public class Casting {
 

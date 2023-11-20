@@ -1,4 +1,4 @@
-package first_project;
+package _01_DataTypes;
 
 //메인 클래스(시작 클래스) 정의
 //-main 메서드 가짐

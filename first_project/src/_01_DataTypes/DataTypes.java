@@ -1,4 +1,4 @@
-package first_project;
+package _01_DataTypes;
 
 //Primitive Type
 //- 비객체 타입 -> null 값 가질 수 없읍
