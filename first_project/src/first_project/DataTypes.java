@@ -1,4 +1,4 @@
-package _01_basic_syntax;
+package first_project;
 
 public class DataTypes {
 	public static void main(String[] args) {

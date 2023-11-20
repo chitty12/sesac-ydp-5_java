@@ -1,13 +1,15 @@
-// 메인 클래스(시작 클래스) 정의
-// -main 메서드 가짐
-// -메인 클래스는 한 개!
+package first_project;
+
+//메인 클래스(시작 클래스) 정의
+//-main 메서드 가짐
+//-메인 클래스는 한 개!
 public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-// 1. //한줄
-// 2. /* 여러 줄 */
-// 3. /** 문서 주석**/
+//1. //한줄
+//2. /* 여러 줄 */
+//3. /** 문서 주석**/
 		
 		
 //		main 메소드
