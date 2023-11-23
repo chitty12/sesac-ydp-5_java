@@ -12,9 +12,6 @@ public class Array_List_ex {
 		
 		Scanner sc = new Scanner(System.in);
 		
-
-
-		
 		while(true) {
 			System.out.println("문자를 입력해주세요.");
 			String input = sc.next();	

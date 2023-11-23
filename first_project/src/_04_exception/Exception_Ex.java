@@ -17,13 +17,15 @@ public class Exception_Ex {
 		
 		
 		Scanner sc = new Scanner(System.in);
-		try {
-			
-			
-			
-		}
 		
-		catch() {}
+		System.out.println("배열크기를 입력해주세요");
+		int i = sc.nextInt();
+		int[] arr1 = new int[i];			
+//		try {
+//		}
+//		
+//		catch(InputMismatchException) {}
+//		NegativeArraySizeException
 		
 		
 		

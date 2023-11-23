@@ -24,6 +24,17 @@ public class Method_ex {
 		
 		sc.close();
 
+		
+		
+	    // 1. 객체 생성
+		Method_ex ol = new Method_ex();
+
+	    // 2. 객체의 메소드 사용
+		
+		System.out.println("반지름이 5인 원의 넓이:" + ol.result(5));
+		System.out.println("가로4, 세로7 직사각형 넓이:" + ol.result(4, 7));
+		System.out.println("밑변6, 높이 3 삼각형의 넓이:" + ol.result(6, 3, 2));
+
 	}
 	
 
@@ -45,21 +56,6 @@ public class Method_ex {
 		return  a*b;
 	}
 
-	
-	class MethodOverloading{
-
-		  public static void main2(String[] args) {
-			    // 1. 객체 생성
-			    MethodOverloading ol = new MethodOverloading();
-
-			    // 2. 객체의 메소드 사용
-				
-				System.out.println("반지름이 5인 원의 넓이:" + ol.result(5));
-				System.out.println("가로4, 세로7 직사각형 넓이:" + ol.result(4, 7));
-				System.out.println("밑변6, 높이 3 삼각형의 넓이:" + ol.result(6, 3, 2));
-			  }
-	    
-	    
 	public double result(double a) {
 		return Math.PI*(a*a);
 	}
@@ -71,6 +67,6 @@ public class Method_ex {
 	public double result (double a, double b, double c) {
 		return a*b/c;
 	}
-	}
+
 	
 }
