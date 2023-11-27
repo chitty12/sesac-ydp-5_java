@@ -8,7 +8,15 @@ interface Flyable {
 
 
 public abstract class Vehicle {
-	String name, maxSpeed;
+	String name;
+	Integer maxSpeed;
+	
+	
+	public Vehicle(String name, Integer maxSpeed) {
+		this.name =name;
+		this.maxSpeed =maxSpeed;
+	}
+	
 	
 	
 	abstract void move();
