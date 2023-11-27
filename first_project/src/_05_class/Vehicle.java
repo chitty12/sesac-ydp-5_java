@@ -32,14 +32,13 @@ public abstract class Vehicle {
 	}
 
 
-	public String getMaxSpeed() {
+	public Integer getMaxSpeed() {
 		return maxSpeed;
 	}
 
 
-	public void setMaxSpeed(String maxSpeed) {
+	public void setMaxSpeed(Integer maxSpeed) {
 		this.maxSpeed = maxSpeed;
 	}
-	
 	
 }
